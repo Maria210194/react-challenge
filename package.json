@@ -14,11 +14,6 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1"
   },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ]
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,11 +25,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "browserslist": {
     "production": [
@@ -49,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.17.0"
+    "json-loader": "^0.5.7"
   }
 }
